@@ -1,0 +1,11 @@
+website:
+  sidebar:
+    contents:
+      - section: "Paper with code"
+        contents:
+          - paper/maps.ipynb
+      - section: API
+        contents:
+          - 00_loading.ipynb
+          
+          
