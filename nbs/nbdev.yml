@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "geka"
+  site-url: "https://franckalbinet.github.io/geka"
+  description: "Global Exchangeable Potassium Assessment"
+  repo-branch: main
+  repo-url: "https://github.com/franckalbinet/geka"
