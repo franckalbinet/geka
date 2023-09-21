@@ -5,4 +5,5 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://franckalbinet.github.io',
                 'git_url': 'https://github.com/franckalbinet/geka',
                 'lib_path': 'geka'},
-  'syms': {'geka.core': {'geka.core.foo': ('core.html#foo', 'geka/core.py')}}}
+  'syms': { 'geka.loading': { 'geka.loading.download': ('loading.html#download', 'geka/loading.py'),
+                              'geka.loading.load_ossl': ('loading.html#load_ossl', 'geka/loading.py')}}}
