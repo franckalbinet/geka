@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "loading.html",
+    "href": "loading.html",
+    "title": "Loading",
+    "section": "",
+    "text": "source\n\ndownload\n\n download (url, dest)\n\nDownload given url into dest (creates it on the way if does not exist)\n\nsource\n\n\nload_ossl\n\n load_ossl (analytes:Union[str,List[str]],\n            dest:pathlib.Path=Path('/home/runner/.geka/data/ossl'))\n\nLoad all available OSSL data and filter it by analytes of interest\n\n\n\n\n\n\n\n\n\n\nType\nDefault\nDetails\n\n\n\n\nanalytes\ntyping.Union[str, typing.List[str]]\n\nUsing OSSL’s analytes naming conventions\n\n\ndest\nPath\n/home/runner/.geka/data/ossl\ndirectory containing the data\n\n\n\nExample:\n\nanalytes = 'k.ext_usda.a725_cmolc.kg'\ndf = load_ossl(analytes)\n\nprint('df shape: ', df.shape)\n\nReading & selecting data ...\ndf shape:  (78804, 9)\n\n\n\ndf.head()\n\n\n\n\n\n\n\n\ndataset.code_ascii_txt\nid.layer_local_c\nid.project_ascii_txt\nlayer.upper.depth_usda_cm\nlayer.lower.depth_usda_cm\nlongitude.point_wgs84_dd\nlatitude.point_wgs84_dd\nobservation.date.begin_iso.8601_yyyy.mm.dd\nk.ext_usda.a725_cmolc.kg\n\n\n\n\n3633\nGARRETT.SSL\nS40857\nForest soil data from New Zealand (Scion Resea...\n0.0\n10.0\n174.42\n-36.78\n2000-06-19\n0.200688\n\n\n3634\nGARRETT.SSL\nS40858\nForest soil data from New Zealand (Scion Resea...\n10.0\n20.0\n174.42\n-36.78\n2000-06-19\n0.086260\n\n\n3635\nGARRETT.SSL\nS40859\nForest soil data from New Zealand (Scion Resea...\n20.0\n38.0\n174.42\n-36.78\n2000-06-19\n0.094081\n\n\n3636\nGARRETT.SSL\nS40860\nForest soil data from New Zealand (Scion Resea...\n38.0\n90.0\n174.42\n-36.78\n2000-06-19\n0.144572\n\n\n3637\nGARRETT.SSL\nS40861\nForest soil data from New Zealand (Scion Resea...\n0.0\n10.0\n174.55\n-36.67\n2000-06-20\n0.310516"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "geka",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation."
+  },
+  {
+    "objectID": "index.html#install",
+    "href": "index.html#install",
+    "title": "geka",
+    "section": "Install",
+    "text": "Install\npip install geka"
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "geka",
+    "section": "How to use",
+    "text": "How to use\n\n..."
+  }
+]
